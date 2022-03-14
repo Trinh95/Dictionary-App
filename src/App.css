@@ -1,11 +1,18 @@
-.App {
-  padding: 30px;
-}
 .App-logo {
   width: 50px;
 }
 
+.App {
+  padding: 30px;
+}
+header {
+  margin-bottom: 30px;
+}
 header span {
   font-weight: 900;
   font-size: 30px;
+}
+
+footer {
+  padding: 30px;
 }
