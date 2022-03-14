@@ -22,10 +22,27 @@ export default function Dictionary() {
   }
   console.log(response);
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="search" onChange={handleKeyword}></input>
-      <input type="submit" value="Search"></input>
-      <Response response={response} />
-    </form>
+    <div className="Dictionary">
+      <div className="container">
+        <form onSubmit={handleSubmit}>
+          <div className="d-flex justify-content-center">
+            <div className="col-3 me-3">
+              <input
+                type="search"
+                placeholder="Type a word"
+                onChange={handleKeyword}
+                className="form-control"
+              ></input>
+            </div>
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary"
+            ></input>
+          </div>
+        </form>
+        <Response response={response} />
+      </div>
+    </div>
   );
 }
