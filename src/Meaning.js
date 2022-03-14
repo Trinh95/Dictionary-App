@@ -23,7 +23,15 @@ export default function Meaning(props) {
               </div>
             );
           } else {
-            return null;
+            return (
+              <div key={index}>
+                <ul>
+                  <li>
+                    <div>{definition.definition}</div>
+                  </li>
+                </ul>
+              </div>
+            );
           }
         })}
       </p>

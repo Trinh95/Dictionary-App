@@ -20,7 +20,7 @@ export default function Dictionary() {
   function handleKeyword(response) {
     setKeyword(response.target.value);
   }
-
+  console.log(response);
   return (
     <form onSubmit={handleSubmit}>
       <input type="search" onChange={handleKeyword}></input>
