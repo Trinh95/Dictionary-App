@@ -1,5 +1,10 @@
+.Synonyms {
+  margin-top: 15px;
+  font-size: 15px;
+}
 .Synonyms .title {
   font-weight: 700;
+  padding-right: 10px;
 }
 .Synonyms .synonym-word ul {
   list-style-type: none;
@@ -11,4 +16,12 @@
 
 .Synonyms .synonym-word li {
   padding-right: 10px;
+}
+
+.Synonyms a {
+  text-decoration: none;
+  color: black;
+}
+.Synonyms a:hover {
+  color: #f76b8a;
 }

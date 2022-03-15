@@ -1,16 +1,15 @@
-.Phonetics a {
+.Phonetics button {
   text-decoration: none;
+  color: #f76b8a;
   border: 1px solid #f76b8a;
   background: white;
-  color: #f76b8a;
-  padding: 6px;
-  line-height: 3;
   display: inline;
-  margin: 0 10px;
-  border-radius: 10px;
+  border-radius: 100px;
+  padding: 5px;
+  margin-right: 10px;
 }
 
-.Phonetics a:hover {
+.Phonetics button:hover {
   background: #f76b8a;
   color: white;
   transition: 200ms all ease-in-out;

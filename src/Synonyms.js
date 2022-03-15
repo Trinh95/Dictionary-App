@@ -1,6 +1,5 @@
 import React from "react";
 import "./Synonyms.css";
-import Dictionary from "./Dictionary";
 
 export default function Synonyms(props) {
   if (props.synonyms.length !== 0) {
@@ -8,12 +7,11 @@ export default function Synonyms(props) {
       <div className="Synonyms">
         <span className="title">Synonyms: </span>
 
-        <div className="synonym-word">
+        <span className="synonym-word">
           {props.synonyms.map(function (synonym, index) {
             function setKeyword(event) {
               event.preventDefault();
               alert(`Searching for ${synonym}`);
-              <Dictionary defaultKeyword={synonym} />;
             }
             return (
               <ul>
@@ -25,7 +23,7 @@ export default function Synonyms(props) {
               </ul>
             );
           })}
-        </div>
+        </span>
       </div>
     );
   } else {

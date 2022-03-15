@@ -2,7 +2,19 @@
   background: white;
   border: 1px solid white;
   margin: 30px;
-  padding: 20px;
+  padding: 25px;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px rgb(233, 220, 220);
+  box-shadow: -5px 5px 10px rgb(233, 220, 220);
+}
+
+.Dictionary h3 {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.Dictionary small {
+  opacity: 0.6;
+  font-size: 12px;
+  padding-left: 5px;
 }

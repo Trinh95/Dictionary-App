@@ -5,7 +5,6 @@ import "./Response.css";
 
 export default function Response(props) {
   let data = props.response;
-  console.log(data);
   if (props.response) {
     return (
       <div className="Response">
