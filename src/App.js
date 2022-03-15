@@ -10,7 +10,7 @@ function App() {
           <span className="ms-3">DICTIONARY APP</span>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="text-center">
           This app is coded by Trinh Le and always{" "}

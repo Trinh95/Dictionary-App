@@ -1,0 +1,8 @@
+.Dictionary section {
+  background: white;
+  border: 1px solid white;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(233, 220, 220);
+}

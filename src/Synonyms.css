@@ -1,0 +1,14 @@
+.Synonyms .title {
+  font-weight: 700;
+}
+.Synonyms .synonym-word ul {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.Synonyms .synonym-word li {
+  padding-right: 10px;
+}

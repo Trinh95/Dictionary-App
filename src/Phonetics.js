@@ -1,18 +1,19 @@
 import React from "react";
+import "./Phonetics.css";
 export default function Phonetics(props) {
   let data = props.phonetics;
   console.log(data);
   if (data.length !== 0) {
     return (
-      <div>
+      <div className="Phonetics">
         {data.map(function (dataEach, index) {
           return (
-            <div key={index}>
-              {dataEach.text}
+            <span key={index}>
               <a href={[dataEach.audio]} target="_blank" rel="noreferrer">
-                Listen
+                <i class="fa-solid fa-volume-high"></i>
               </a>
-            </div>
+              {dataEach.text}
+            </span>
           );
         })}
       </div>
