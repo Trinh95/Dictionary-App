@@ -20,7 +20,6 @@ export default function Dictionary() {
   function handleKeyword(response) {
     setKeyword(response.target.value);
   }
-  console.log(response);
   return (
     <div className="Dictionary">
       <div className="container">
