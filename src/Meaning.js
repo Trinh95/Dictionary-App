@@ -4,8 +4,6 @@ import Synonyms from "./Synonyms";
 //Show the partOfSpeech, definition and example
 export default function Meaning(props) {
   let data = props.meaning;
-  console.log(data);
-  console.log(data.synonyms);
   return (
     <div className="Meaning">
       <strong>{data.partOfSpeech}</strong>
