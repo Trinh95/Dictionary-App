@@ -6,7 +6,6 @@ export default function Phonetics(props) {
     return (
       <div className="Phonetics">
         {data.map(function (dataEach, index) {
-          console.log(dataEach.audio);
           function playAudio() {
             new Audio(dataEach.audio).play();
           }
