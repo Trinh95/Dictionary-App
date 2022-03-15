@@ -14,8 +14,8 @@ export default function Synonyms(props) {
               alert(`Searching for ${synonym}`);
             }
             return (
-              <ul>
-                <li key={index}>
+              <ul key={index}>
+                <li>
                   <a href="/" onClick={setKeyword}>
                     {synonym}
                   </a>
